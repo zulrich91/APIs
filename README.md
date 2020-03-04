@@ -13,14 +13,14 @@ ________________________________________________________________________________
 * __Hypertext Transfer Protocol (HTTP)__ is a protocol that provides a standardized way for computers to communicate with each other. It has been the foundation for data communication over the internet since 1990 and is integral to understanding how client-server communication functions.
 
 * __Features__:
- * __Connectionless__: When a request is sent, the client opens the connection; once a response is received, the client closes the connection. The client and server only maintain a connection during the response and request. Future responses are made on a new connection.
- * __Stateless__: There is no dependency between successive requests.
- * __Not Sessionless__: Utilizing headers and cookies, sessions can be created to allow each HTTP request to share the same context.
- * __Media Independent__: Any type of data can be sent over HTTP as long as both the client and server know how to handle the data format. In our case, we'll use JSON.
+  * __Connectionless__: When a request is sent, the client opens the connection; once a response is received, the client closes the connection. The client and server only maintain a connection during the response and request. Future responses are made on a new connection.
+  * __Stateless__: There is no dependency between successive requests.
+  * __Not Sessionless__: Utilizing headers and cookies, sessions can be created to allow each HTTP request to share the same context.
+  * __Media Independent__: Any type of data can be sent over HTTP as long as both the client and server know how to handle the data format. In our case, we'll use JSON.
  
 * __Elements__:
- * __Universal Resource Identifiers (URIs)__: An example URI is http://www.example.com/tasks/term=homework. It has certain components:
- * __Scheme__: specifies the protocol used to access the resource, HTTP or HTTPS. In our example http.
- * __Host__: specifies the host that holds the resources. In our example www.example.com.
- * __Path__: specifies the specific resource being requested. In our example, /tasks.
- * __Query__: an optional component, the query string provides information the resource can use for some purpose such as a search parameter. In our example, /term=homework.
+  * __Universal Resource Identifiers (URIs)__: An example URI is http://www.example.com/tasks/term=homework. It has certain components:
+  * __Scheme__: specifies the protocol used to access the resource, HTTP or HTTPS. In our example http.
+  * __Host__: specifies the host that holds the resources. In our example www.example.com.
+  * __Path__: specifies the specific resource being requested. In our example, /tasks.
+  * __Query__: an optional component, the query string provides information the resource can use for some purpose such as a search parameter. In our example, /term=homework.
