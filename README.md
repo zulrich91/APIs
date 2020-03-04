@@ -19,7 +19,7 @@ ________________________________________________________________________________
  * __Media Independent__: Any type of data can be sent over HTTP as long as both the client and server know how to handle the data format. In our case, we'll use JSON.
  
 * __Elements__:
-* __Universal Resource Identifiers (URIs)__: An example URI is http://www.example.com/tasks/term=homework. It has certain components:
+ * __Universal Resource Identifiers (URIs)__: An example URI is http://www.example.com/tasks/term=homework. It has certain components:
  * __Scheme__: specifies the protocol used to access the resource, HTTP or HTTPS. In our example http.
  * __Host__: specifies the host that holds the resources. In our example www.example.com.
  * __Path__: specifies the specific resource being requested. In our example, /tasks.
