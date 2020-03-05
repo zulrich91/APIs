@@ -24,3 +24,6 @@ ________________________________________________________________________________
   * __Host__: specifies the host that holds the resources. In our example www.example.com.
   * __Path__: specifies the specific resource being requested. In our example, /tasks.
   * __Query__: an optional component, the query string provides information the resource can use for some purpose such as a search parameter. In our example, /term=homework.
+_______________________________________________________________________________________________________________________
+# URLs
+* [Endpoint to return an image in a ready to visualize form](https://stackoverflow.com/questions/8637153/how-to-return-images-in-flask-response)
