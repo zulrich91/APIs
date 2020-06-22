@@ -31,5 +31,5 @@ ________________________________________________________________________________
 
 # Python achives
 * [Backup tarballs for installing conda repositories](https://repo.anaconda.com/pkgs/free/linux-64/)
-Example usage, install flask in a python 2.7 environment
-`conda install https://repo.anaconda.com/pkgs/free/linux-64/flask-0.10-py27_0.tar.bz2`
+* Example usage, install flask in a python 2.7 environment
+   `conda install https://repo.anaconda.com/pkgs/free/linux-64/flask-0.10-py27_0.tar.bz2`
